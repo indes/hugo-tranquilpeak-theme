@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body,h1,h2,h3,h4,h5,h6,html {
-	font-family: "Open Sans",sans-serif
+	font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif
 }
 
 table td,table th {
@@ -816,7 +816,7 @@ blockquote>p:first-child {
 }
 
 #sidebar {
-	font-family: "Open Sans",sans-serif;
+	font-family:-apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
 	height: 100%;
 	position: fixed;
 	top: 0;
@@ -2232,7 +2232,7 @@ blockquote>p:first-child {
 	position: absolute;
 	bottom: 0;
 	width: calc(100% - (1.5em) * 2);
-	font-family: "Open Sans";
+	font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
 	font-style: italic;
 	background: rgba(0,0,0,.75);
 	font-size: 1.3rem;
@@ -2524,7 +2524,7 @@ a.fancybox {
 
 .post .post-meta {
 	line-height: 1.5em;
-	font-family: "Open Sans",sans-serif;
+	font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
 	font-size: 1.3rem;
 	font-weight: 400;
 	color: #9eabb3
@@ -2537,7 +2537,7 @@ a.fancybox {
 .post .post-content {
 	text-rendering: optimizelegibility;
 	letter-spacing: -.3px;
-	font-family: Merriweather,serif;
+	font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
 	color: #5d686f;
 	margin-top: 20px;
 	font-weight: 400;
@@ -2707,7 +2707,7 @@ a.fancybox {
 
 .post-header-cover .post-header .post-meta {
 	max-width: 750px;
-	font-family: "Open Sans",sans-serif;
+	font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
 	font-size: 1.6rem;
 	color: #fff!important;
 	font-weight: 400;
@@ -2902,7 +2902,7 @@ a.fancybox {
 }
 
 .postShorten .postShorten-excerpt_link,.postShorten .postShorten-meta,.postShorten .postShorten-readingtime {
-	font-family: "Open Sans",sans-serif;
+	font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
 	font-size: 1.3rem;
 	font-weight: 400
 }
@@ -2910,7 +2910,7 @@ a.fancybox {
 .postShorten .postShorten-content,.postShorten .postShorten-excerpt {
 	text-rendering: optimizelegibility;
 	letter-spacing: -.3px;
-	font-family: Merriweather,serif;
+	font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
 	color: #5d686f;
 	font-weight: 400;
 	overflow: hidden;
