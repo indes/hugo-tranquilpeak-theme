@@ -10,7 +10,7 @@
   {{ .Scratch.Set "sidebarBehavior" .Site.Params.sidebarBehavior }}
 {{ end }}
 {{ if .Site.Author.gravataremail }}
-  {{ .Scratch.Set "authorPicture" (printf "//www.gravatar.com/avatar/%s" (urlize (md5 .Site.Author.gravataremail))) }}
+  {{ .Scratch.Set "authorPicture" (printf "//gravatar.moefont.com/avatar/%s" (urlize (md5 .Site.Author.gravataremail))) }}
 {{ else if .Site.Author.picture }}
   {{ .Scratch.Set "authorPicture" (absURL .Site.Author.picture) }}
 {{ end }}
@@ -77,9 +77,9 @@
     {{ end }}
 
     <!--EXTERNAL STYLES-->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.css" />
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" />
+    <link rel="stylesheet" href="//cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="//cdn.staticfile.org/fancybox/2.1.5/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="//cdn.staticfile.org/fancybox/2.1.5/helpers/jquery.fancybox-thumbs.css" />
     <!--EXTERNAL STYLES END-->
     <!--STYLES-->
     <link rel="stylesheet" href="/css/style.css" />
