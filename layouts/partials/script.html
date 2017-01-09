@@ -25,6 +25,7 @@ $(document).ready(function() {
   });
 });
 </script>
+
 {{ if .IsPage }}
   {{ if not (eq .Params.comments false) }}
     {{ if .Site.DisqusShortname }}
@@ -54,6 +55,7 @@ $(document).ready(function() {
     {{ end }}
   {{ end }}
 {{ end }}
+
 {{ with .Site.Params.algolia }}
   {{ if (isset . "appId") | and (isset . "apiKey") | and (isset . "indexName") }}
     <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment-with-locales.min.js"></script>

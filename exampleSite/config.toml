@@ -17,10 +17,14 @@ languageCode = "en-us"
 defaultContentLanguage = "en-us"
 title = "Hugo tranquilpeak theme"
 theme = "hugo-tranquilpeak-theme"
-disqusShortname = "hugo-tranquilpeak-theme"
+disqusShortname = ""
 # googleAnalytics = "UA-123-45"
 paginate = 7
 canonifyurls = true
+
+[params.duoshuo]
+  enable = true
+  shortname = "hugo-tranquilpeak-theme"
 
 [permalinks]
   post = "/:year/:month/:slug/"
