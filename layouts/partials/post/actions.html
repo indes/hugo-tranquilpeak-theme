@@ -32,7 +32,8 @@
           <i class="fa fa-share-alt"></i>
         </a>
       </li>
-      <li class="post-action hide-xs">
+      <!--分享按钮-->
+      <!--<li class="post-action hide-xs">
         <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url={{ .Permalink }}">
           <i class="fa fa-google-plus"></i>
         </a>
@@ -46,7 +47,8 @@
         <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text={{ .Permalink }}">
           <i class="fa fa-twitter"></i>
         </a>
-      </li>
+      </li>-->
+
     {{ end }}
     {{ if and (not (eq .Params.comments false)) .Site.DisqusShortname }}
       <li class="post-action">
@@ -55,6 +57,16 @@
         </a>
       </li>
     {{ end }}
+
+    <!--多说锚点链接-->
+    {{ if (eq .Site.Params.duoshuo.enable true) }}
+      <li class="post-action">
+        <a class="post-action-btn btn btn--default" href="#ds-thread">
+          <i class="fa fa-comment-o"></i>
+        </a>
+      </li>
+    {{ end }}
+    
     <li class="post-action">
       {{ if findRE "<!--\\s*[t|T][o|O][c|C]\\s*-->" .Content }}
         <a class="post-action-btn btn btn--default" href="#table-of-contents">
