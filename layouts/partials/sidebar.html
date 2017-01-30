@@ -20,5 +20,8 @@
     <ul class="sidebar-buttons">
       {{ partial "menu.html" (dict "menu" .Site.Menus.misc "root" $) }}
     </ul>
+    <ul class="sidebar-buttons">
+      {{ partial "menu.html" (dict "menu" .Site.Menus.others "root" $) }}
+    </ul>
   </div>
 </nav>

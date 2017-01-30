@@ -26,7 +26,7 @@
     </ul>
   </nav>
   <ul class="post-actions post-action-share">
-    {{ if (not (eq .Params.showSocial false)) }}
+    {{ if  (eq .Params.showSocial true) }}
       <li class="post-action hide-lg hide-md hide-sm">
         <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
           <i class="fa fa-fw fa-share-alt"></i>

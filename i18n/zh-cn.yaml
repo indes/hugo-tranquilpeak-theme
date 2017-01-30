@@ -1,4 +1,7 @@
 ## GLOBAL ##
+- id: "global.links"
+  translation: "链接"
+
 - id: "global.home"
   translation: "首页"
 
